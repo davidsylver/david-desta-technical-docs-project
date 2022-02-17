@@ -6,11 +6,17 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-     
+  <body> 
+    <nav id="navbar">
+      <header>React</header>
+      <a class="nav-link" href="#Hello_world">Hello World</a>
+      <a class="nav-link" href="#jsx">JSX</a>
+      <a class="nav-link" href="#rendering_elements">Rendering Elements</a>
+      <a class="nav-link" href="#components_and_props">Components and props</a>
+      <a class="nav-link" href="#rendering_a_component">Rendering a component</a>
+    </nav>
+
      <main id="main-doc">
-      
       <section class="main-section" id="Hello_world">
         <header>Hello World</header>
         <p>The smallest React example looks like this:</p>
@@ -68,7 +74,7 @@
               return <h1>Hello, {props.name}</h1>;
             }</code>
        </section>
-       <section class="main-section" id="rendering_a_component<">
+       <section class="main-section" id="rendering_a_component">
           <header>Rendering a Component</header>
           <p>Previously, we only encountered React elements that represent DOM tags:</p>
           <code class="docs-code">const element = <div />;</code>
@@ -76,20 +82,10 @@
           <code class="docs-code">const element = <Welcome name="Sara" />;</code>
           <p>When React sees an element representing a user-defined component, it passes JSX attributes and 
             children to this component as a single object. We call this object “props”.</p>
-
        </section>
-
      </main> 
 
-     <nav id="navbar">
-       <header>React</header>
-       <a class="nav-link" href="#Hello_world">Hello World</a>
-       <a class="nav-link" href="#jsx">JSX</a>
-       <a class="nav-link" href="#rendering_elements">Rendering Elements</a>
-       <a class="nav-link" href="#components_and_props">Components and props</a>
-       <a class="nav-link" href="#rendering_a_component">Rendering a component</a>
-
-     </nav>
+     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
   </body>
 </html>
